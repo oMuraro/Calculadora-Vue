@@ -9,7 +9,7 @@
     </section>
 </template>
 
-<style>
+<style scoped>
     .acoes {
             background-color: cadetblue;
             padding: 10px;

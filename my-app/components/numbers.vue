@@ -13,7 +13,7 @@
         </section>
 </template>
 
-<style>
+<style scoped>
     .botoes {
             display: flex;
             flex-wrap: wrap;

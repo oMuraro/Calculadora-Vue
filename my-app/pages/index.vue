@@ -33,6 +33,7 @@ import { Result } from 'postcss';
             digitar(valor) {
                 if (this.operator === "resultado") {
                     this.clear();
+                    this.operator = "";
                 } 
                 this.display += valor;    
             },
@@ -84,7 +85,7 @@ import { Result } from 'postcss';
     }
 </script>
 
-<style>
+<style scoped>
     * { padding: 0; margin: 0};
 
 html {
